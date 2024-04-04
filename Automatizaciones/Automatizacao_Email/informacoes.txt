@@ -1,0 +1,25 @@
+ Abaixo está um exemplo de um script Python para automatizar o envio de relatórios diários por e-mail usando a biblioteca smtplib 
+ para enviar e-mails e schedule para agendar tarefas. Este exemplo assume 
+ que você tem um relatório diário em formato de arquivo (por exemplo, um arquivo CSV) que precisa ser enviado por e-mail.
+
+ Agora, para configurar este script:
+
+1.Certifique-se de ter o Python instalado em seu sistema.
+
+2.Instale as dependências necessárias executando pip install schedule.
+
+3.Substitua as informações do remetente (seu e-mail) e destinatário (para quem você deseja enviar o relatório) 
+nas variáveis remetente e destinatario.
+
+4.Substitua "relatorio_diario.csv" pelo caminho do seu arquivo de relatório.
+
+5.Substitua "seu_email@gmail.com" e "sua_senha" pelas credenciais da sua conta de e-mail remetente.
+
+6.Este exemplo usa o Gmail como provedor de e-mail. Se você estiver usando outro provedor, substitua "smtp.gmail.com" 
+pela configuração do seu provedor SMTP.
+
+7.Certifique-se de permitir acesso a aplicativos menos seguros na configuração da sua conta de e-mail 
+(para o Gmail, vá para Configurações > Ver todos os ajustes > Segurança > Acesso a apps menos seguros).
+
+8.Execute o script. Ele enviará o relatório diário por e-mail todos os dias às 8h da manhã. Certifique-se de que o script está
+sendo executado continuamente (por exemplo, em um servidor ou em segundo plano) para que o agendamento funcione corretamente.
