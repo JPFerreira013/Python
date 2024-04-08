@@ -12,7 +12,7 @@ sheet_productos = workbook['Produtos']
 
 #entrar na linha correta da planilha, pulando o titulo das colunas
 for coluna in sheet_productos.iter_rows(min_row=2, values_only=True):
-    nome_produto = coluna[0]
+    nome_produto = coluna[0].value
     pyperclip.copy(nome_produto)
     pyautogui.click(863,72,duration=1)
     pyautogui.hotkey('ctrl', 'v')
