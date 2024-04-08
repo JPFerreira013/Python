@@ -128,6 +128,13 @@ for linha in sheet_produtos.iter_rows(min_row=2):
     # iniciar cadastro novamente
     pyautogui.click(1695,580,duration=1)
 
+
+# Exibir mensagem de confirmação após o preenchimento da planilha
+print("Todos os dados foram inseridos com sucesso!")
+
+# Exibir mensagem de confirmação após o preenchimento da planilha
+pyautogui.alert('Todos os dados foram inseridos com sucesso!', 'Concluído')
+
 # Repitir esses passos para outros campos até preencher campos daquela página
 # Clicar em próxima
 # Repetir os mesmos passos e ir para a próxima página(página 2)
