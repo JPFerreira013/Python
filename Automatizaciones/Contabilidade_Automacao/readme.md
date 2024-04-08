@@ -10,5 +10,10 @@ Este script Python foi desenvolvido para automatizar o processo de preenchimento
 ```bash
 pip install openpyxl pyperclip pyautogui
 ```
-faz um programa que automotiza vc copiar dados de uma tabela excell ppara um formulario dado por dado.
-mimetiza o comportamento humano clicando nos locais que vc porgrama na tela do pc e colando a informcaco correta.
+Faz um programa que automotiza vc copiar dados de uma tabela excell ppara um formulario dado por dado.
+
+Mimetiza o comportamento humano clicando nos locais que vc porgrama na tela do pc e colando a informcaco correta.
+
+Antes de executar o script, abra outro terminal e execute o comando mouseInfo(). Pressione F6 para salvar as coordenadas do mouse. Isso será necessário para configurar as coordenadas dos campos no código.
+
+https://www.youtube.com/watch?v=UtkPIpov6h8&t=40s
